@@ -130,7 +130,7 @@ class Wordle
 
 end
 
-input = ARGV[0].to_s
+input = ARGV.shift
 
 if input == ""
   Wordle.new(nil).play
